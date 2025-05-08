@@ -202,6 +202,8 @@
   .border:hover {
     background-color: yellow;
     color: black;
+    transition: 1s;
+    transition-duration: 1s;
   }
   .video-container {
     display: flex;
@@ -297,6 +299,33 @@
     font-weight: bold;
   }
 
+  .video-section6 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .video-box6 video {
+    max-width: 600px;
+    height: 700px;
+    padding-top: 170px;
+    padding-right: 50px;
+   
+  }
+  
+  .video-right6 video{
+    max-width: auto;
+    height: 800px;
+    padding-top: 100px;
+    padding-right: 100px;
+    width: 600px;
+    
+  }
+
+  .video-box6 h1 {
+    
+  }
+
+
   .cs-detail {
     display: flex;
     justify-content:space-evenly;
@@ -347,9 +376,12 @@
 
   .cta-section1 {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     align-items: center;
     justify-content: space-evenly;
+    padding: 10px;
+
   }
 
   .box1 {
@@ -396,6 +428,10 @@
     border: none;
     margin-top: 100px;
     border: 2px solid black;
+  }
+  .class:hover {
+    background-color: white;
+    border: 2px solid rgb(12, 11, 11);
   }
 
   .border1:hover {
@@ -501,7 +537,4 @@
 
   }
 
-  .class:hover {
-    background-color: white;
-    border: 2px solid rgb(238, 16, 16);
-  }
+ 
